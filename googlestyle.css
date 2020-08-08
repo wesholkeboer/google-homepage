@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+    -webkit-appearance: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 8px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+.google-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: auto;
+}
+
+.searchbar {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.buttts {
+    display: flex;
+    justify-content: center;
+}
+
+.buttts > button {
+    margin: 6px;
+}
+
+.search {
+    padding: 7px 12px 7px 12px;
+}
