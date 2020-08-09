@@ -23,10 +23,15 @@ a {
 
 a:link {
     text-decoration: none;
+    margin: 10px;
 }
 
 a:hover {
     text-decoration: underline
+}
+
+header {
+    margin-top: 15px;
 }
 
 .google-logo {
